@@ -39,7 +39,6 @@ data/
 *.sqlite
 
 # Plots and images
-*.png
 *.jpg
 *.jpeg
 *.gif
