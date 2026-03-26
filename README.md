@@ -123,3 +123,5 @@ docker-compose down
 ```
 
 Your notebooks and files will remain on your computer.
+
+> Ps: I just don't wanna restart my laptop and get into windows because it's annoying 
