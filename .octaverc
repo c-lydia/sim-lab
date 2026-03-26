@@ -1,0 +1,27 @@
+% Better display
+more off
+format compact
+
+% Nice prompt
+PS1(">> ")
+
+% Auto grid + style
+set(0, "defaultaxesfontsize", 14)
+
+% Plot settings
+graphics_toolkit("qt")
+
+disp("Octave ready!")
+
+set(0, "defaultlinelinewidth", 2)
+set(0, "defaultaxesfontsize", 14)
+
+x = 1:10;
+y = x.^2;
+plot(x, y)
+grid on
+title("My First Plot")
+xlabel("X")
+ylabel("Y")
+
+print -dpng "plot.png"

@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  sim-lab:
+    build: .
+    container_name: sim-lab
+    volumes:
+      - ./jupyter-settings:/root/.jupyter/lab/user-settings
+      - ./notebooks:/workspace/notebooks
+      - ./src:/workspace/src
+      - ./plots:/workspace/plots
+    ports:
+      - "8888:8888"  # Jupyter notebook
+      - "5901:5901"  # GUI (optional)
+    stdin_open: true
+    tty: true
