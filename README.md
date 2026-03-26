@@ -33,7 +33,7 @@ docker-compose --version
 Clone this project to your computer:
 
 ```bash
-git clone (https://github.com/c-lydia/sim-lab.git)
+git clone https://github.com/c-lydia/sim-lab.git
 cd <your-repo-directory>
 ```
 
